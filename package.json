@@ -1,8 +1,8 @@
 {
   "name": "less-edp",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "less for edp-lesslint, base on less 1.7.0",
-  "homepage": "http://lesscss.org",
+  "homepage": "https://github.com/ielgnaw/less-edp",
   "author": {
     "name": "ielgnaw",
     "email": "wuji0223@gmail.com"
@@ -49,29 +49,8 @@
     "time-grunt": "~0.2.9"
   },
   "keywords": [
-    "compile less",
-    "css nesting",
-    "css variable",
-    "css",
-    "gradients css",
-    "gradients css3",
-    "less compiler",
-    "less css",
-    "less mixins",
-    "less",
-    "less.js",
-    "lesscss",
-    "mixins",
-    "nested css",
-    "parser",
-    "preprocessor",
-    "bootstrap css",
-    "bootstrap less",
-    "style",
-    "styles",
-    "stylesheet",
-    "variables in css",
-    "css less"
+    "edp",
+    "edp-lesslint"
   ],
   "readme": "Base on less 1.7.0\n\n for edp-lesslint\n\nChange files: \n\n1. `less/lib/less/tree/color.js` \n\n2. `less/lib/less/tree/dimension.js`",
   "readmeFilename": "README.md",
