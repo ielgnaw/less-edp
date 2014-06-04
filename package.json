@@ -1,0 +1,85 @@
+{
+  "name": "less-edp",
+  "version": "0.2.1",
+  "description": "less for edp-lesslint, base on less 1.7.0",
+  "homepage": "http://lesscss.org",
+  "author": {
+    "name": "ielgnaw",
+    "email": "wuji0223@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ielgnaw/less-edp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ielgnaw/less-edp.git"
+  },
+  "bin": {
+    "lessc": "./bin/lessc"
+  },
+  "main": "./lib/less/index",
+  "directories": {
+    "test": "./test"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "optionalDependencies": {
+    "mime": "1.2.x",
+    "request": ">=2.33.0",
+    "mkdirp": "~0.3.5",
+    "clean-css": "2.1.x",
+    "source-map": "0.1.x"
+  },
+  "devDependencies": {
+    "diff": "~1.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-shell": "~0.6.4",
+    "http-server": "~0.6.1",
+    "matchdep": "~0.3.0",
+    "time-grunt": "~0.2.9"
+  },
+  "keywords": [
+    "compile less",
+    "css nesting",
+    "css variable",
+    "css",
+    "gradients css",
+    "gradients css3",
+    "less compiler",
+    "less css",
+    "less mixins",
+    "less",
+    "less.js",
+    "lesscss",
+    "mixins",
+    "nested css",
+    "parser",
+    "preprocessor",
+    "bootstrap css",
+    "bootstrap less",
+    "style",
+    "styles",
+    "stylesheet",
+    "variables in css",
+    "css less"
+  ],
+  "readme": "Base on less 1.7.0\n\n for edp-lesslint\n\nChange files: \n\n1. `less/lib/less/tree/color.js` \n\n2. `less/lib/less/tree/dimension.js`",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mime": "1.2.x",
+    "request": ">=2.33.0",
+    "mkdirp": "~0.3.5",
+    "clean-css": "2.1.x",
+    "source-map": "0.1.x"
+  }
+}
